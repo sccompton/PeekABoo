@@ -25,6 +25,11 @@
 		9EC8EFA3189AE781005A2393 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EC8EF7E189AE781005A2393 /* CoreData.framework */; };
 		9EC8EFAB189AE781005A2393 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9EC8EFA9189AE781005A2393 /* InfoPlist.strings */; };
 		9EC8EFAD189AE781005A2393 /* PeekABooTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EC8EFAC189AE781005A2393 /* PeekABooTests.m */; };
+		9EC8EFBF189AF42F005A2393 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EC8EFBE189AF42F005A2393 /* AssetsLibrary.framework */; };
+		9EC8EFC2189B1651005A2393 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EC8EFC1189B1651005A2393 /* User.m */; };
+		9EC8EFC8189C9015005A2393 /* PhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EC8EFC7189C9015005A2393 /* PhotoCell.m */; };
+		9EC8EFCA189DC575005A2393 /* Frieda.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9EC8EFC9189DC575005A2393 /* Frieda.gif */; };
+		9EC8EFCD189DD890005A2393 /* ZoomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EC8EFCC189DD890005A2393 /* ZoomViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +66,14 @@
 		9EC8EFA8189AE781005A2393 /* PeekABooTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PeekABooTests-Info.plist"; sourceTree = "<group>"; };
 		9EC8EFAA189AE781005A2393 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9EC8EFAC189AE781005A2393 /* PeekABooTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PeekABooTests.m; sourceTree = "<group>"; };
+		9EC8EFBE189AF42F005A2393 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		9EC8EFC0189B1651005A2393 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		9EC8EFC1189B1651005A2393 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		9EC8EFC6189C9015005A2393 /* PhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoCell.h; sourceTree = "<group>"; };
+		9EC8EFC7189C9015005A2393 /* PhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoCell.m; sourceTree = "<group>"; };
+		9EC8EFC9189DC575005A2393 /* Frieda.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Frieda.gif; sourceTree = "<group>"; };
+		9EC8EFCB189DD890005A2393 /* ZoomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZoomViewController.h; sourceTree = "<group>"; };
+		9EC8EFCC189DD890005A2393 /* ZoomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoomViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EC8EFBF189AF42F005A2393 /* AssetsLibrary.framework in Frameworks */,
 				9EC8EF7B189AE781005A2393 /* CoreGraphics.framework in Frameworks */,
 				9EC8EF7F189AE781005A2393 /* CoreData.framework in Frameworks */,
 				9EC8EF7D189AE781005A2393 /* UIKit.framework in Frameworks */,
@@ -111,6 +125,7 @@
 		9EC8EF77189AE781005A2393 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9EC8EFBE189AF42F005A2393 /* AssetsLibrary.framework */,
 				9EC8EF78189AE781005A2393 /* Foundation.framework */,
 				9EC8EF7A189AE781005A2393 /* CoreGraphics.framework */,
 				9EC8EF7C189AE781005A2393 /* UIKit.framework */,
@@ -123,15 +138,22 @@
 		9EC8EF80189AE781005A2393 /* PeekABoo */ = {
 			isa = PBXGroup;
 			children = (
+				9EC8EFC9189DC575005A2393 /* Frieda.gif */,
 				9EC8EF89189AE781005A2393 /* AppDelegate.h */,
 				9EC8EF8A189AE781005A2393 /* AppDelegate.m */,
 				9EC8EF8C189AE781005A2393 /* Main.storyboard */,
 				9EC8EF92189AE781005A2393 /* MasterViewController.h */,
 				9EC8EF93189AE781005A2393 /* MasterViewController.m */,
+				9EC8EFCB189DD890005A2393 /* ZoomViewController.h */,
+				9EC8EFCC189DD890005A2393 /* ZoomViewController.m */,
 				9EC8EF95189AE781005A2393 /* DetailViewController.h */,
 				9EC8EF96189AE781005A2393 /* DetailViewController.m */,
+				9EC8EFC6189C9015005A2393 /* PhotoCell.h */,
+				9EC8EFC7189C9015005A2393 /* PhotoCell.m */,
 				9EC8EF98189AE781005A2393 /* Images.xcassets */,
 				9EC8EF8F189AE781005A2393 /* PeekABoo.xcdatamodeld */,
+				9EC8EFC0189B1651005A2393 /* User.h */,
+				9EC8EFC1189B1651005A2393 /* User.m */,
 				9EC8EF81189AE781005A2393 /* Supporting Files */,
 			);
 			path = PeekABoo;
@@ -243,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9EC8EF99189AE781005A2393 /* Images.xcassets in Resources */,
+				9EC8EFCA189DC575005A2393 /* Frieda.gif in Resources */,
 				9EC8EF85189AE781005A2393 /* InfoPlist.strings in Resources */,
 				9EC8EF8E189AE781005A2393 /* Main.storyboard in Resources */,
 			);
@@ -265,6 +288,9 @@
 			files = (
 				9EC8EF97189AE781005A2393 /* DetailViewController.m in Sources */,
 				9EC8EF94189AE781005A2393 /* MasterViewController.m in Sources */,
+				9EC8EFC2189B1651005A2393 /* User.m in Sources */,
+				9EC8EFCD189DD890005A2393 /* ZoomViewController.m in Sources */,
+				9EC8EFC8189C9015005A2393 /* PhotoCell.m in Sources */,
 				9EC8EF8B189AE781005A2393 /* AppDelegate.m in Sources */,
 				9EC8EF87189AE781005A2393 /* main.m in Sources */,
 				9EC8EF91189AE781005A2393 /* PeekABoo.xcdatamodeld in Sources */,
@@ -476,6 +502,7 @@
 				9EC8EFB2189AE781005A2393 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9EC8EFB3189AE781005A2393 /* Build configuration list for PBXNativeTarget "PeekABooTests" */ = {
 			isa = XCConfigurationList;
@@ -484,6 +511,7 @@
 				9EC8EFB5189AE781005A2393 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
